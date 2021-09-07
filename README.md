@@ -1,4 +1,6 @@
 Local Library
+
+
 A local library website with a complete database for users to be able to search books by title, author, genre, and other categories.
 
 While others took care of the logistics and design, it was up to me to build the algorithms.
@@ -50,6 +52,7 @@ You can view all of the accounts data inside of the public/data/ directory. Each
   "email": "esther.tucker@zillacon.me",
   "registered": "Thursday, May 28, 2015 2:51 PM"
 }
+
 An account represents a person who is registered with the library. Accounts can take out and return books.
 
 Authors
@@ -62,6 +65,7 @@ You can view all of the authors data inside of the public/data/ directory. Each 
     "last": "Moreno"
   }
 }
+
 An author represents someone who wrote one or more books in the library.
 
 Books
@@ -87,6 +91,7 @@ You can view all of the books data inside of the public/data/ directory. Each bo
     }
   ]
 }
+
 Each book represents a physical book but also contains additional information. In particular:
 
 The authorId matches up with an author. It represents who wrote the book.
